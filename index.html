@@ -4,36 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Js Project drag and drop elements</title>
+    <title>Drag & drop file</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
-<body style="background: darkslateblue;">
+<body style="background: rgb(219, 174, 245); height: 100vh; display: flex;
+align-items: center; justify-content: center;">
 
-    <section class="dragging_sec">
+    <section class="dd_files_sec">
         <div class="container">
-            <div class="dragging_ottr">
-                <div class="white_box"> 
-                    <div class="img_box" draggable="true">
-                        <img src="./images/a1.webp" alt="img">
+            <div class="dd_files_innr">
+                <label for="input-file" id="drop-area">
+                    <input type="file" accept="image/*" id="input-file" hidden>
+                    <div id="img-view">
+                        <img src="cloud-upload-solid-svgrepo-com.png">
+                        <p style="color: red;">Drag & Drop or click here<br>to upload image</p>
+                        <span style="color: red;">Upload any images from desktop</span>
                     </div>
-                </div>
-                <div class="white_box">
-
-                </div>
-                <div class="white_box">
-
-                </div>
-                <div class="white_box">
-
-                </div>
+                </label>
             </div>
         </div>
     </section>
 
     <script src="./js/bootstrap.min.js"></script>
+    <script>
+
+    </script>
     <script src="./js/custom.js"></script>
 </body>
 

@@ -20,6 +20,11 @@
         font-size: 47%;
     }
 
+    #img-view {
+        width: 97%;
+        height: 100%;
+    }
+
 }
 
 @media(max-width: 1366px) {
@@ -38,6 +43,15 @@
         font-size: 42%;
     }
 
+    .dd_files_innr img {
+        margin-top: 10rem;
+    }
+
+    #drop-area {
+        width: 65rem;
+        height: 40rem;
+    }
+
 }
 
 @media(max-width: 1199px) {
@@ -45,51 +59,64 @@
         max-width: 100%;
     }
 
-    html {
-        font-size: 100%;
-    }
-
 }
 
-@media(max-width: 1080px) {
-}
+@media(max-width: 1080px) {}
 
 @media(max-width: 1024px) {}
 
 @media(max-width: 991px) {}
 
-@media(max-width: 900px) {
-}
+@media(max-width: 900px) {}
 
-@media(max-width: 840px) {
-}
+@media(max-width: 840px) {}
 
-@media(max-width: 768px) {
-}
+@media(max-width: 768px) {}
 
-@media(max-width: 767px) {
-}
+@media(max-width: 767px) {}
 
-@media(max-width: 667px) {
-}
+@media(max-width: 667px) {}
 
-@media(max-width: 600px) {
-}
+@media(max-width: 600px) {}
 
-@media(max-width: 575px) {
-}
+@media(max-width: 575px) {}
 
 @media(max-width: 480px) {
+    #drop-area {
+        width: 58rem;
+    }
 }
 
 @media(max-width: 430px) {
+    #drop-area {
+        width: 55rem;
+    }
 }
 
 @media(max-width: 390px) {
+    #drop-area {
+        width: 53rem;
+        height: 37rem;
+    }
+
+    .dd_files_innr img {
+        margin-top: 9rem;
+    }
+
+    #img-view {
+        width: 100%;
+    }
 }
 
 @media(max-width: 375px) {
+    #drop-area {
+        width: 50rem;
+        height: 35rem;
+    }
+
+    .dd_files_innr img {
+        margin-top: 8rem;
+    }
 }
 
-@media(max-width: 360px) {
-}
+@media(max-width: 360px) {}

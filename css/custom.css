@@ -58,34 +58,40 @@ ol {
     max-width: 1560px;
 }
 
-/* ayon paul start / 10.06.2024 */
+/* ayon paul start / 13.06.2024 */
 
-.white_box {
+.dd_files_innr img {
+    width: 7rem;
+    margin-top: 5rem;
+}
+
+#drop-area {
+    background: transparent;
+    border: 2px solid red;
+    width: 50rem;
+    height: 30rem;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    text-align: center;
+    margin: auto;
 }
 
-.dragging_ottr {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding-block: 26%;
+.dd_files_innr p {
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
-.hold {
-    border: 2px solid red;
-    border-radius: 100%;
+.dd_files_innr span {
+    text-transform: capitalize;
 }
 
-.hide {
-    display: none;
-}
-.dashed{
-    background: violet;
-    border-style: dashed;
+#img-view {
+    width: 94%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
